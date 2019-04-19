@@ -1,0 +1,10 @@
+begin transaction;
+insert into products values ('0001','Tshirt','clothes',1000,500,'2009-09-20');
+insert into products values ('0002','Punch','stationary',500,320,'2009-09-11');
+insert into products values ('0003','cutter shirt','clothes',4000,2800,null);
+insert into products values ('0004','knife','kitchen goods',3000,2800,'2009-09-20');
+insert into products values ('0005','pressure cooker','kitchen goods',6800,5000,'2009-01-15');
+insert into products values ('0006','fork','kitchen goods',500,null,'2009-09-20');
+insert into products values ('0007','grater','kitchen goods',880,790,'2009-04-28');
+insert into products values ('0008','ball pen','stationary',100,null,'2009-11-11');
+commit;

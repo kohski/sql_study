@@ -1,0 +1,13 @@
+-- select id, name, purchase_price from products;
+-- select '商品' as header, 40 as stock, * from products;
+-- select distinct category from products;
+-- select distinct purchase_price from products; 
+-- select distinct category, register_date from products;
+-- select name, category from products where category = 'clothes';
+-- select name , sales_price, sales_price * 2 as "sales price * 2" from products;
+-- select (100+200) * 3 as keisan;
+-- select null / 0 as error
+-- select name, category,sales_price from products where sales_price = 500;
+-- select name, category, sales_price from products where sales_price != 500;
+-- select name, category, sales_price,register_date from products where register_date < '2009-09-27'
+-- select name, category,sales_price,purchase_price from products where sales_price - purchase_price >= 500;

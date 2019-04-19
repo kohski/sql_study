@@ -1,0 +1,1 @@
+alter table addresses add column postal_code char(8) not null
